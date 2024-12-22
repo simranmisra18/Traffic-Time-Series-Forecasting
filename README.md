@@ -1,4 +1,4 @@
-# PERIODIC TIME SERIES PREDICTION USING CONVOLUTIONAL NEURAL NETWORK
+# Periodic Time Series Prediction Using Convolutional Neural Network
 
 ## Model Description
 In this project, a Convolutional Neural Network (CNN) model is designed for 1D time-series data and aims to capture
@@ -51,9 +51,6 @@ In this project, a Convolutional Neural Network (CNN) model is designed for 1D t
  prediction accuracy of the autoregressive model, with lower MSE indicating better performance.
 
  ## Results
- Weachieved the final training loss of 0.0013, and the final MSE for the validation is 0.0018, which would indicate a low
+ We achieved the final training loss of 0.0013, and the final MSE for the validation is 0.0018, which would indicate a low
  error on validation data. This score indicates the model’s effectiveness in capturing trajectory trends, making it suitable
- for testing on unseen data, which would be the test data. Below are the predicted versus actual trajectories for the three
- trajectory instances (0, 1, 2) from the validation dataset. Figure 1 shows the plots that illustrate the model’s accuracy in
- predicting trajectory paths over time and provide insight into its ability to track the true trajectory of traffic flow data.
- Each plot was saved as a PNG file with dimensions 4x4 inches and a resolution of 200 DPI
+ for testing on unseen data, which would be the test data. 
